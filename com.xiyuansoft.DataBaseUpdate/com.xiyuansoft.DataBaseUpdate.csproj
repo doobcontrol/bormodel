@@ -48,11 +48,11 @@
     <Compile Include="UpdateNode.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\biz\com.xiyuansoft.bormodel\com.xiyuansoft.bormodel.csproj">
+    <ProjectReference Include="..\com.xiyuansoft.bormodel\com.xiyuansoft.bormodel.csproj">
       <Project>{09a6ba8f-03c1-4093-a7e6-3a3c372b6a6d}</Project>
       <Name>com.xiyuansoft.bormodel</Name>
     </ProjectReference>
-    <ProjectReference Include="..\com.xiyuansoft.DataBasePro\com.xiyuansoft.DataBasePro.csproj">
+    <ProjectReference Include="..\..\xyDb\com.xiyuansoft.DataBasePro\com.xiyuansoft.DataBasePro.csproj">
       <Project>{cf557008-f817-4caf-8668-17fd10065724}</Project>
       <Name>com.xiyuansoft.DataBasePro</Name>
     </ProjectReference>
